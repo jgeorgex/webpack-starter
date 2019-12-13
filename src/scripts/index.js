@@ -1,4 +1,6 @@
-for (let i = 0; i < 5; i++) {
-  if (i === 3) continue;
-  console.log(i);
+let message = "Outside";
+if (5 === 5) {
+  let message = "Equal";
+  console.log(message);
 }
+console.log(message);
